@@ -4,6 +4,8 @@ import "./index.css"
 import data from './data/data.json'
 import Arrivals from './Components/newArrivals/Arrivals';
 import BeautyComponent from './Components/Section3/BeautyComponent';
+import BestSellers from './Components/BestSellers/BestSellers';
+import FamousBrands from './Components/Section5/FamousBrands';
 
 
 export default class App extends Component {
@@ -19,10 +21,12 @@ export default class App extends Component {
         title={product[0].title}
         description={product[0].description}
         imageUrl={product[0].image}/>
+		<BestSellers/>
 		<BeautyComponent/>
         <Arrivals
 			imageUrl={this.state.bestSellers[0].image}
 		/>
+		<FamousBrands/>
       </div>
     )
   }

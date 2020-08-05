@@ -8,27 +8,56 @@
 		
 		}
 	],
-	"bestSellers": [
+	"newArrivals": [
 		{
 			"_id": 1,
-			"title": "Nicolac Kikwood",
-			"description": "Elysian Day Flat mules",
-			"image": "./images/image1.png",
+			"hedding":"New Arrivals",
+			"title": "Dolce & Gabbana",
+			"description": "Lace Busiter top",
+			"image": "./images/t-shirt.png",
 			"price":438
 		},
 		{
 			"_id": 2,
-			"title": "Nicolac Kikwood",
-			"description": "Elysian Day Flat mules",
-			"image": "./images/image1.png",
+			"hedding":"New Arrivals",
+			"title": "Balenciga",
+			"description": "Oversized cutton t-shirt",
+			"image": "./images/t-shirt.png",
 			"price":438
 		},
 		{
 			"_id": 3,
+			"hedding":"Best Sellers",
+			"title": "Nicolac Kikwood",
+			"description": "Elysian Day Flat mules",
+			"image": "./images/t-shirt.png",
+			"price":438
+		}
+	],
+	"bestSellers": [
+		{
+			"_id": 1,
+			"hedding": "Best Sellers",
 			"title": "Nicolac Kikwood",
 			"description": "Elysian Day Flat mules",
 			"image": "./images/image1.png",
-			"price":438
+			"price": 438
+		},
+		{
+			"_id": 2,
+			"hedding": "Best Sellers",
+			"title": "Nicolac Kikwood",
+			"description": "Elysian Day Flat mules",
+			"image": "./images/image1.png",
+			"price": 438
+		},
+		{
+			"_id": 3,
+			"hedding": "Best Sellers",
+			"title": "Nicolac Kikwood",
+			"description": "Elysian Day Flat mules",
+			"image": "./images/image1.png",
+			"price": 438
 		}
 	]
 }

@@ -1,5 +1,6 @@
 .beauty {
 	margin: 0 auto;
+	margin-bottom: 80px;
 	background-color: #efefef;
 	width:100%;
 	min-width: 850px;
@@ -9,6 +10,7 @@
 	flex-direction: row;
 	flex-wrap: nowrap;
 	align-items: stretch;
+	padding-bottom: 20px;
 }
 
 .beauty div {
@@ -47,12 +49,11 @@ button {
 	text-align: center;
 	padding: 10px;
 	font-weight: 900;
-	margin: 15px 0px 30px 0px;
 	color: #333;
 	background: transparent;
 	outline: none;
 	border: none;
-	font-size: 16px;
+	font-size: 14px;
 	opacity: 0;
 	transition: opacity .5s;
 }

@@ -1,0 +1,74 @@
+.main {
+	width: 100%;
+	padding: 20px;
+}
+
+.main h1 {
+	margin: 5px;
+	font-weight: 500;
+	font-size: 3em;
+}
+
+.flex {
+	margin: 30px auto;
+	width: 85%;
+	height: auto;
+	padding: 20px;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.flexItems {
+	position: relative;
+	background-color: #fff;
+	flex-basis: 28%;
+	height: 220px;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+	padding-top: 15px;
+	background-image: url(https://images.unsplash.com/photo-1506915925765-ed31516b9080?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	transition-delay: 0.3s;
+}
+
+.flexItems:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background: rgba(0, 0, 0, .3);
+	z-index: -1;
+	opacity: 0;
+	transition: all 0.5s;
+}
+
+.flexItems:hover:before {
+	background: rgba(0, 0, 0, .3);
+	z-index: 2;
+	opacity: 1;
+	transition: opacity 0.5s;
+}
+
+.flexItems h5 {
+	text-transform: uppercase;
+	font-size: 1.2em;
+	letter-spacing: 2;
+	margin: 0;
+	text-align: center;
+	font-weight: 500;
+	opacity: 0;
+	color: white;
+}
+
+.flexItems:hover h5 {
+	z-index: 3;
+	opacity: 1;
+}

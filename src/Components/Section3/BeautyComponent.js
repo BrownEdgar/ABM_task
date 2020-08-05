@@ -4,7 +4,6 @@ export default function BeautyComponent() {
 	return (
 		<div className={style.beauty}>
 			<div className={style.img_container}>
-
 			</div>
 			<div className={style.text_box}>
 				<h1>The Beauty Hall of Fame</h1>

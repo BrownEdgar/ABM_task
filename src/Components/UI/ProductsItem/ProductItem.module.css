@@ -1,0 +1,64 @@
+/* Best Sellers */
+
+.hedding {
+	font-size: 3em;
+	margin: 5px;
+}
+
+.main_flex {
+	margin-top: 40px;
+	height: auto;
+	padding: 20px;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+	overflow: hidden;
+}
+
+.main-flex div {
+	background-color: #fff;
+	flex-basis: 30%;
+	min-width: 200px;
+	height: auto;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+	padding-top: 15px;
+}
+
+.imgBox {
+	width: 280px;
+	height: 300px;
+	margin-bottom: 20px;
+	background-image: url('./image1.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.infobox {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+	font-size: 18px;
+}
+
+.infobox h3 {
+	margin: 3px;
+	font-weight: 900;
+}
+span{
+	font-size: 14px;
+}
+button {
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	font-weight: bold;
+	columns: #333;
+	outline: none;
+	margin-top: 20px;
+}
