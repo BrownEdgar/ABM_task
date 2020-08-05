@@ -1,13 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 body {
-  margin: 0;
-  font-family: Montserrat, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  height: 2500px; 
+	margin: 0;
+	font-family: Montserrat, Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	height: 2500px;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.App {
+	display: flex;
+	flex-flow: column nowrap;
+	width: 90%;
+	height: 2000px;
+	min-width: 600px;
+	margin: 0 auto;
+	border: 2px solid black;
+	align-items: stretch;
+	justify-content: space-between;
+}
+
+.App>div{
+	border-top: 10px double rgb(170, 6, 33);
 }
