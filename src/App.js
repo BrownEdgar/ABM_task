@@ -1,26 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import FashionComponent from './Components/FashionComponent/Component';
+import "./index.css"
+import data from './data/data.json'
+import Arrivals from './Components/newArrivals/Arrivals';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+export default class App extends Component {
+  state = {
+    products: data.fashioPproducts,
+  }
+  render() {
+    const product = this.state.products;
+    return (
+      <div>
+        <FashionComponent
+        title={product[0].title}
+        description={product[0].description}
+        imageUrl={product[0].image}/>
+
+        <Arrivals/>
+      </div>
+    )
+  }
 }
 
-export default App;
+
+
