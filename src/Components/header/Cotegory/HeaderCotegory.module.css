@@ -1,0 +1,65 @@
+.main {
+	width: 100%;
+	height: 100px;
+	padding: 0px 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #030303;
+	font-weight: 600;
+	font-size: 14px;
+}
+
+ul {
+	padding: 5px;
+}
+
+nav ul li {
+	border-right: 1px solid black;
+	line-height: 8px;
+}
+
+ul li {
+	position: relative;
+	display: inline-block;
+	padding: 2px 8px;
+}
+
+li a {
+	font-weight: 300;
+	font-size: 12px;
+	text-decoration: none;
+	color: #030303;
+}
+
+nav li a::before {
+	content: "";
+	bottom: -8px;
+	right: 0;
+	position: absolute;
+	width: 0%;
+	height: 2px;
+	background-color: #BDBDBD;
+	transition: 0.3s;
+}
+
+nav li a:hover:before {
+	width: 25%;
+	left: 38.5%;
+}
+
+nav ul li:last-child {
+	border: none;
+}
+
+ul li i {
+	font-size: 15px;
+}
+
+select {
+	border: none;
+	font-size: 10px;
+	color: #030303;
+}
+
+select option {}

@@ -20,14 +20,15 @@ code {
 .App {
 	display: flex;
 	flex-flow: column nowrap;
-	width: 96%;
-	height: 3000px;
+	width: 100%;
 	min-width: 600px;
 	margin: 0 auto;
-	border: 2px solid black;
 	justify-content: flex-start;
 }
 
 h1 {
 	text-transform: uppercase;
+	margin: 5px;
+	font-weight: 500;
+	font-size: 2.5em;
 }

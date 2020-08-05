@@ -58,12 +58,3 @@
 	margin: 3px;
 }
 
-button {
-	cursor: pointer;
-	background: transparent;
-	border: none;
-	font-weight: bold;
-	columns: #333;
-	outline: none;
-	margin-top: 20px;
-}

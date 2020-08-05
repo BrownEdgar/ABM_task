@@ -8,7 +8,7 @@ export default function BeautyComponent() {
 			<div className={style.text_box}>
 				<h1>The Beauty Hall of Fame</h1>
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus impedit eum neque necessitatibus amet optio.</p>
-				<button>Buy now</button>
+				<button className={style.btn}>Buy now</button>
 			</div>
 		</div>
 	)

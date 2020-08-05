@@ -2,7 +2,6 @@ import React from 'react'
 import style from "./ProductItem.module.css"
 import formatCurrency from '../../../util';
 export default function ItemComponent(props) {
-	console.log(props.imageUrl);
 	return (
 		
 		<div className={style.main_flex_item}>

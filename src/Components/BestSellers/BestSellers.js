@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import style from "./BestSellers.module.css"
 import ProductItem from '../UI/ProductsItem/ProductItem'
 import data from '../../data/data.json'
+import Button from '../UI/Button/Button';
 
 
 export default function BestSellers() {
@@ -22,7 +23,8 @@ export default function BestSellers() {
 					)
 				})}
 		</div>
-				<button>View All</button>
+				<Button
+				type="primary">View all</Button>
 		</div>
     )
 }
