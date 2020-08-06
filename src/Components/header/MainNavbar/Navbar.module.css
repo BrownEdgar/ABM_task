@@ -1,0 +1,38 @@
+.navWrapper{
+    height: 100px;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #030303;
+	font-weight: 600;
+	font-size: 16px;
+}
+.menuList ul {
+    position: relative;
+	padding: 5px;
+}
+
+.menuList li {
+	display: inline-block;
+    padding: 2px 8px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.menuList li::before {
+	content: "";
+	bottom: -8px;
+	right: 0;
+	position: absolute;
+	width: 0%;
+	height: 2px;
+	background-color: #BDBDBD;
+	transition: 0.3s;
+}
+
+.menuList li:hover:before {
+	width: 25%;
+	left: 38.5%;
+}

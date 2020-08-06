@@ -12,7 +12,7 @@ export default function ItemComponent(props) {
 			<div className={style.infobox}>
 				<h3>{props.title}</h3>
 				<span>{props.description}</span>
-				<p>{formatCurrency(props.price)}</p>
+				<p className={style.priceBox}>{formatCurrency(props.price)}</p>
 			</div>
 		</div>
 	)

@@ -9,7 +9,7 @@ export default function BestSellers() {
 	const [productData, setproductData] = useState(data.newArrivals);
     return (
 		<div className={style.wrapper}>
-			<h1>Best Sellers</h1>
+			<h1>new Arrivals</h1>
 		<div className={style.main_flex}>
 				{productData.map(product => {
 					return (
