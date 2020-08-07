@@ -33,10 +33,10 @@ export default function FooterComponent() {
           <Fitems>
             <h1>Found us</h1>
                 <ul>
-                <span> <i class="fab fa-facebook-square"></i> </span>
-                <span> <i class="fab fa-instagram"></i>       </span>
-                <span> <i class="fab fa-twitter"></i>         </span>
-                <span> <i class="fab fa-linkedin"></i>        </span>
+                <span> <i className="fab fa-facebook-square"></i> </span>
+                <span> <i className="fab fa-instagram"></i>       </span>
+                <span> <i className="fab fa-twitter"></i>         </span>
+                <span> <i className="fab fa-linkedin"></i>        </span>
                 </ul>
           </Fitems>
         </div>

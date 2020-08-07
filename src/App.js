@@ -13,6 +13,7 @@ import Navbar from './Components/header/MainNavbar/Navbar';
 import FooterComponent from './Components/Footer/FooterComponent';
 
 
+
 export default class App extends Component {
   state = {
     products: data.fashioPproducts,
@@ -31,7 +32,7 @@ export default class App extends Component {
         </Switch>
         </Router>
         <Navbar/>
-
+	
         <FashionComponent
         title={product[0].title}
         description={product[0].description}

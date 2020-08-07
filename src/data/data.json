@@ -1,63 +1,189 @@
 {
-	"fashioPproducts": [
-		{
+    "fashioPproducts": [
+        {
+			"title": "Fashion Gets loose: Meet fall''s new shapes", 
+ 			"description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges",
+			"image": "https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+        
 
-			"title": "Fashion Gets loose: Meet fall's new shapes",
-			"description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges:",
-			"image":"https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
-		
-		}
-	],
-	"newArrivals": [
+        }
+    ],
+    "newArrivals": [
+        {
+            "_id": 1,
+            "hedding": "New Arrivals",
+            "title": "Dolce & Gabbana",
+            "description": "Lace Busiter top",
+            "image": "./images/t-shirt.png",
+            "price": 438
+        }, {
+            "_id": 2,
+            "hedding": "New Arrivals",
+            "title": "Balenciga",
+            "description": "Oversized cutton t-shirt",
+            "image": "./images/t-shirt.png",
+            "price": 438
+        }, {
+            "_id": 3,
+            "hedding": "Best Sellers",
+            "title": "Nicolac Kikwood",
+            "description": "Elysian Day Flat mules",
+            "image": "./images/t-shirt.png",
+            "price": 438
+        }
+    ],
+    "bestSellers": [
+        {
+            "_id": 1,
+            "hedding": "Best Sellers",
+            "title": "Nicolac Kikwood",
+            "description": "Elysian Day Flat mules",
+            "image": "./images/image1.png",
+            "price": 438
+        }, {
+            "_id": 2,
+            "hedding": "Best Sellers",
+            "title": "Nicolac Kikwood",
+            "description": "Elysian Day Flat mules",
+            "image": "./images/image1.png",
+            "price": 438
+        }, {
+            "_id": 3,
+            "hedding": "Best Sellers",
+            "title": "Nicolac Kikwood",
+            "description": "Elysian Day Flat mules",
+            "image": "./images/image1.png",
+            "price": 438
+        }
+    ],
+    "subMenusData": [
 		{
 			"_id": 1,
-			"hedding":"New Arrivals",
-			"title": "Dolce & Gabbana",
-			"description": "Lace Busiter top",
-			"image": "./images/t-shirt.png",
-			"price":438
+			"title": "Summer Shop",
+			"image": "https://images.unsplash.com/photo-1583002083702-25fe6931eff8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+			"imageTitle": "New Arrivals",
+			"cotegories": [
+				"Beachwear",
+				"Floral dresses",
+				"Summer sccessories"
+			]
 		},
 		{
 			"_id": 2,
-			"hedding":"New Arrivals",
-			"title": "Balenciga",
-			"description": "Oversized cutton t-shirt",
-			"image": "./images/t-shirt.png",
-			"price":438
+			"title": "All brands",
+			"image": "https://images.unsplash.com/photo-1583002083702-25fe6931eff8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+			"imageTitle": "brands",
+			"cotegories": [
+				"Gucci",
+				"Versace",
+				"Balmain",
+				"Chanel",
+				"Dolce & Gabana",
+				"Burberry",
+				"Valentino",
+				"Prada",
+				"Tom Ford"
+			]
 		},
 		{
 			"_id": 3,
-			"hedding":"Best Sellers",
-			"title": "Nicolac Kikwood",
-			"description": "Elysian Day Flat mules",
-			"image": "./images/t-shirt.png",
-			"price":438
-		}
-	],
-	"bestSellers": [
-		{
-			"_id": 1,
-			"hedding": "Best Sellers",
-			"title": "Nicolac Kikwood",
-			"description": "Elysian Day Flat mules",
-			"image": "./images/image1.png",
-			"price": 438
+			"title": "All clothes",
+			"image": "https://images.unsplash.com/photo-1479064555552-3ef4979f8908?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+			"imageTitle": "clothing",
+			"cotegories": [
+				"Coats",
+				"Denim",
+				"T-shirts",
+				"Jackets",
+				"Trousers",
+				"Shorts",
+				"Lingerie",
+				"Nightwear",
+				"Skirts"
+			]
 		},
 		{
-			"_id": 2,
-			"hedding": "Best Sellers",
-			"title": "Nicolac Kikwood",
-			"description": "Elysian Day Flat mules",
-			"image": "./images/image1.png",
-			"price": 438
+			"_id": 4,
+			"title": "All shoes",
+			"image": "https://images.unsplash.com/photo-1551795490-b919936ebfd9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+			"imageTitle": "shoes",
+			"cotegories": [
+				"Ankle boots",
+				"Boots",
+				"Flat shoes",
+				"Mules",
+				"Pumps",
+				"Sandals",
+				"Heels",
+				"Sneakers"
+			]
 		},
 		{
-			"_id": 3,
-			"hedding": "Best Sellers",
-			"title": "Nicolac Kikwood",
-			"description": "Elysian Day Flat mules",
-			"image": "./images/image1.png",
-			"price": 438
+			"_id": 5,
+			"title": "All bugs",
+			"image": "https://images.unsplash.com/photo-1564222256577-45e728f2c611?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+			"imageTitle": "Bugs",
+			"cotegories": [
+				"Shoulder bags",
+				"Totes",
+				"Shoppers",
+				"Clutches",
+				"Evening bags",
+				"bakcpacks",
+				"Beach bags"
+			]
+		},
+		{
+			"_id": 6,
+			"title": "All accessories",
+			"image": "https://images.unsplash.com/photo-1537832816519-689ad163238b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+			"imageTitle": "Accessories",
+			"cotegories": [
+				"Belts",
+				"Hats",
+				"Scarves",
+				"Gloves",
+				"Glasses",
+				"Watches",
+				"Homewere"
+			]
+		},
+		{
+			"_id": 7,
+			"title": " All jewellery",
+			"image": "https://images.unsplash.com/photo-1450297166380-cabe503887e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+			"imageTitle": "Jewellery",
+			"cotegories": [
+				"rings",
+				"Bracelets",
+				"Earrings",
+				"Necklaces"
+			]
+		},{
+			"_id": 8,
+			"title": "All lingeries",
+			"image": "https://images.unsplash.com/photo-1548855067-319eba30d743?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+			"imageTitle": "Lingerie",
+			"cotegories": [
+				"Bodysuits",
+				"Bras",
+				"Briefs",
+				"Robes",
+				"Shapewear"
+			]
+		},
+		{
+			"_id": 9,
+			"title": "All beauty products",
+			"image": "https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+			"imageTitle": "Beauty",
+			"cotegories": [
+				"Skin care",
+				"Make up",
+				"Fragrances",
+				"Gifts and sets",
+				"Hair care"
+			]
 		}
-	]
+    ]
 }

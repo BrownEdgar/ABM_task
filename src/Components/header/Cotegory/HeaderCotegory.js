@@ -21,9 +21,9 @@ export default function HeaderCotegory(props) {
 			</div>
 			<div>
 				<ul>
-					<li> <i class="far fa-user"></i>         </li>
-					<li> <i class="far fa-heart"></i>        </li>
-					<li> <i class="fas fa-shopping-bag"></i> </li>
+					<li> <i className="far fa-user"></i>         </li>
+					<li> <i className="far fa-heart"></i>        </li>
+					<li> <i className="fas fa-shopping-bag"></i> </li>
 				</ul>
 				<select name="" id="curency">
 					<option value="amd" >AMD</option>
