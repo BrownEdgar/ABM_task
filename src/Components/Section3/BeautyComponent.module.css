@@ -6,7 +6,7 @@
 	min-width: 850px;
 	height: 300px;
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-around;
 	flex-direction: row;
 	flex-wrap: nowrap;
 	align-items: stretch;
@@ -21,7 +21,7 @@
 	text-align: center;
 	padding: 10px;
 	color: #333;
-	max-width: 500px;
+	max-width: 600px;
 	overflow: hidden;
 	min-width: 400px;
 }

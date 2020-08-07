@@ -48,7 +48,7 @@
 .subFlex {
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: space-evenly;
+	justify-content: center;
 	align-items: baseline;
 }
 
@@ -87,8 +87,8 @@
 
 h2 {
 	position: absolute;
-	top: 42%;
-	left: -19%;
+	top: 32%;
+	left: -9%;
 	margin: 0;
 	padding: 0;
 	font-size: 14em;

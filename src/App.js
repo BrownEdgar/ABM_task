@@ -33,17 +33,13 @@ export default class App extends Component {
      		</Switch>
         </Router>
         <Navbar/>
-	
-        <FashionComponent
-			title={product[0].title}
-			description={product[0].description}
-			imageUrl={product[0].image}/>
-			<BestSellers/>
-			<BeautyComponent/>
-			<Arrivals imageUrl={this.state.bestSellers[0].image}/>
-			<FamousBrands/>
+        <FashionComponent title={product[0].title} description={product[0].description} imageUrl={product[0].image}/>
+		<BestSellers/>
+		<BeautyComponent/>
+		<Arrivals imageUrl={this.state.bestSellers[0].image}/>
+		<FamousBrands/>
         <FooterComponent/>
-			<CopyRight/>
+		<CopyRight/>
       </div>
     )
   }

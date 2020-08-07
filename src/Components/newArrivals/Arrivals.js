@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import style from "./Arrivals.module.css"
 import ProductItem from '../UI/ProductsItem/ProductItem'
 import data from '../../data/data.json'

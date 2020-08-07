@@ -1,4 +1,4 @@
-import React,{ useState, useEffect }from 'react'
+import React,{ useState }from 'react'
 import style from "./FamousBrands.module.css"
 export default function FamousBrands() {
 	const [brands, setbrands] = useState([
@@ -7,7 +7,6 @@ export default function FamousBrands() {
 		{ id:3,title: "BurBerry"},
 	])
 	return (
-	
 			<div className={style.main}>
 				<h1>Famous Brands</h1>
 			<div className={style.flex}>

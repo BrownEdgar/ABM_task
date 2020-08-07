@@ -2,10 +2,11 @@
 	position: relative;
 	background-color: white;
 	width: 100%;
+	min-width: 1200px;
 	height: 450px;
 	margin: 0 auto;
 	display: flex;
-	flex-flow: row nowrap;
+	flex-flow: row-reverse nowrap;
 	justify-content: space-between;
 	overflow: hidden;
 }
@@ -14,21 +15,23 @@
 
 .wrapper .mainImg {
 	min-width: 600px;
+	max-width: 900px;
 	height: 100%;
 	background-color: red;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 	overflow: hidden;
+	
 }
 
 .wrapper_text_box {
-	position: relative;
+	position: absolute;
 	left: 6%;
-	flex-basis: 35%;
-	min-width: 600px;
+	width:45%;
+	min-width: 40%;
 	height: auto;
-	padding: 20px;
+	padding: 40px 20px;
 	background-color: rgb(240, 240, 240, 0.9);
 	min-width: 300px;
 	align-self: center;
@@ -41,6 +44,7 @@
 	font-weight: 500;
 	font-size: 2.3em;
 	margin: 0;
+	margin-bottom: 30px;
 }
 
 .mainImg img {

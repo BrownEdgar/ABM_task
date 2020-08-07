@@ -2,6 +2,7 @@ import React from 'react'
 import style from './HeaderCotegory.module.css'
 import {Link} from 'react-router-dom'
 import Logo from './logo.png'
+import LeftMenu from './LeftMenu'
 
 export default function HeaderCotegory(props) {
 
@@ -10,7 +11,7 @@ export default function HeaderCotegory(props) {
 			<div>
 				<nav className={style.categoryList}>
 					<ul>
-						<li>  <Link to='/women'>Women</Link></li>
+						<li> <Link to='/women'>Women</Link></li>
 						<li> <Link to='/men'>Men</Link></li>
 						<li> <Link to='/kids'>Kids</Link></li>
 					</ul>
@@ -19,24 +20,8 @@ export default function HeaderCotegory(props) {
 			<div>
 				<img src={Logo} alt="logo"/>
 			</div>
-			<div>
-				<ul>
-					<li> <i className="far fa-user"></i>         </li>
-					<li> <i className="far fa-heart"></i>        </li>
-					<li> <i className="fas fa-shopping-bag"></i> </li>
-				</ul>
-				<select name="" id="curency">
-					<option value="amd" >AMD</option>
-					<option value="eur" >EUR</option>
-					<option value="usd" >USD</option>
-				</select>
-				<select name="" id="lang">
-					<option value="arm"></option>
-					<option value="ru"></option>
-					<option value="en"></option>
-				</select>
+			<LeftMenu/>
 			</div>
-		</div>
 	)
 
 }
