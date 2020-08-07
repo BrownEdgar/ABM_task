@@ -3,6 +3,7 @@ import style from "./FooterComponent.module.css";
 import logo from "../../logo.png"
 import Fitems from './Fitems';
 
+
 export default function FooterComponent() {
     return (
         <div className={style.footer_box} >

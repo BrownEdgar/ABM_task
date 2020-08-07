@@ -60,7 +60,7 @@
 		{
 			"_id": 1,
 			"title": "Summer Shop",
-			"image": "https://images.unsplash.com/photo-1583002083702-25fe6931eff8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+			"image": "./images/img1.jpg",
 			"imageTitle": "New Arrivals",
 			"cotegories": [
 				"Beachwear",
@@ -71,7 +71,7 @@
 		{
 			"_id": 2,
 			"title": "All brands",
-			"image": "https://images.unsplash.com/photo-1583002083702-25fe6931eff8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+			"image": "./images/brands.jpg",
 			"imageTitle": "brands",
 			"cotegories": [
 				"Gucci",
@@ -88,7 +88,7 @@
 		{
 			"_id": 3,
 			"title": "All clothes",
-			"image": "https://images.unsplash.com/photo-1479064555552-3ef4979f8908?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+			"image": "./images/clothing.jpg",
 			"imageTitle": "clothing",
 			"cotegories": [
 				"Coats",
@@ -105,7 +105,7 @@
 		{
 			"_id": 4,
 			"title": "All shoes",
-			"image": "https://images.unsplash.com/photo-1551795490-b919936ebfd9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+			"image": "./images/Shoes.jpg",
 			"imageTitle": "shoes",
 			"cotegories": [
 				"Ankle boots",
@@ -121,7 +121,7 @@
 		{
 			"_id": 5,
 			"title": "All bugs",
-			"image": "https://images.unsplash.com/photo-1564222256577-45e728f2c611?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+			"image": "./images/bags.jpg",
 			"imageTitle": "Bugs",
 			"cotegories": [
 				"Shoulder bags",
@@ -136,7 +136,7 @@
 		{
 			"_id": 6,
 			"title": "All accessories",
-			"image": "https://images.unsplash.com/photo-1537832816519-689ad163238b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+			"image": "./images/accessories.jpg",
 			"imageTitle": "Accessories",
 			"cotegories": [
 				"Belts",
@@ -151,7 +151,7 @@
 		{
 			"_id": 7,
 			"title": " All jewellery",
-			"image": "https://images.unsplash.com/photo-1450297166380-cabe503887e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+			"image": "./images/jewellery.jpg",
 			"imageTitle": "Jewellery",
 			"cotegories": [
 				"rings",
@@ -162,7 +162,7 @@
 		},{
 			"_id": 8,
 			"title": "All lingeries",
-			"image": "https://images.unsplash.com/photo-1548855067-319eba30d743?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+			"image": "./images/lingerie.jpg",
 			"imageTitle": "Lingerie",
 			"cotegories": [
 				"Bodysuits",
@@ -175,7 +175,7 @@
 		{
 			"_id": 9,
 			"title": "All beauty products",
-			"image": "https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+			"image": "./images/beauty.jpg",
 			"imageTitle": "Beauty",
 			"cotegories": [
 				"Skin care",

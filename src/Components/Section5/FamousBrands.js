@@ -21,6 +21,7 @@ export default function FamousBrands() {
 				)
 			})}
 				</div>
+				<hr/>
 			</div>
 	)
 }
